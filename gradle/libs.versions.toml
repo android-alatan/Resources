@@ -3,8 +3,8 @@ androidAnnotation = "1.1.0"
 moshi = "1.13.0"
 javaX = "1"
 kotlinPoet = "1.8.0"
-ksp = "1.6.10-1.0.3"
-kotlin = { prefer = "1.6.10" }
+ksp = "1.6.20-1.0.5"
+kotlin = { prefer = "1.6.20" }
 agp = "7.1.1"
 junit5 = "5.8.2"
 detekt = "1.19.0"
