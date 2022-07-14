@@ -1,17 +1,15 @@
 [versions]
-androidAnnotation = "1.1.0"
+androidAnnotation = "1.2.0"
 moshi = "1.13.0"
 javaX = "1"
 kotlinPoet = "1.8.0"
-ksp = "1.6.20-1.0.5"
-kotlin = { prefer = "1.6.20" }
-agp = "7.1.1"
+ksp = "1.7.0-1.0.6"
+kotlin = "1.7.0"
+agp = "7.2.0"
 junit5 = "5.8.2"
-detekt = "1.19.0"
-kotlinDsl = "2.2.0"
-mavenPublish = "0.18.0"
-jacoco = "0.8.7"
-jsonParser = "0.1.0"
+detekt = "1.20.0"
+jacoco = "0.8.8"
+jsonParser = "0.1.2"
 androidBuildTool = "32.0.0"
 androidCompile = "32"
 targetSdk = "32"
@@ -76,10 +74,10 @@ test-androidxTest-junit = { module = "androidx.test.ext:junit", version.ref = "a
 verify-detektFormatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
 
 # android-alatn
-jsonParser-api = { module = "com.github.android-alatan.JsonParser:json-parser-api", version.ref = "jsonParser" }
-jsonParser-impl = { module = "com.github.android-alatan.JsonParser:json-parser", version.ref = "jsonParser" }
-jsonParser-factory = { module = "com.github.android-alatan.JsonParser:moshi-adapter-factory", version.ref = "jsonParser" }
-jsonParser-ksp = { module = "com.github.android-alatan.JsonParser:moshi-adapter-factory-ksp", version.ref = "jsonParser" }
+jsonParser-api = { module = "com.github.android-alatan.jsonparser:json-parser-api", version.ref = "jsonParser" }
+jsonParser-impl = { module = "com.github.android-alatan.jsonparser:json-parser", version.ref = "jsonParser" }
+jsonParser-factory = { module = "com.github.android-alatan.jsonparser:moshi-adapter-factory", version.ref = "jsonParser" }
+jsonParser-ksp = { module = "com.github.android-alatan.jsonparser:moshi-adapter-factory-ksp", version.ref = "jsonParser" }
 
 
 [plugins]
@@ -90,4 +88,3 @@ kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
-mavenPublish = { id = "com.vanniktech.maven.publish", version.ref = "mavenPublish" }
